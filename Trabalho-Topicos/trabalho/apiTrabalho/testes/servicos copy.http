@@ -1,0 +1,50 @@
+# Obter a lista de usuários
+GET http://localhost:3000/api/agendamento
+Content-Type: application/json
+###
+
+# Inserir novo usuário
+POST http://localhost:3000/api/agendamento
+Content-Type: application/json
+
+{
+    "dataHoraInicio": "2022-04-26 14:00:00",
+    "dataHoraFinal": "2022-04-26 15:00:00",
+    "cliente": "João",
+    "servico": "Corte Degrade",
+    "valorFinal": 125222
+}
+###
+
+# Alterar usuário
+PUT http://localhost:3000/api/agendamento
+Content-Type: application/json
+
+{
+    "_id": "625f5c5a6c51077258e55784",
+    "dataHoraInicio": "2022-04-23T00:00:00.000Z",
+    "dataHoraFinal": "2022-04-23T01:00:00.000Z",
+    "cliente": "Pedrinhosss",
+    "servico": "625f767115fb9897c221735c",
+    "valorFinal": 12533000
+}
+###
+
+# Excluir um usuário
+DELETE http://localhost:3000/api/agendamento/625f5c5a6c51077258e55784
+Content-Type: application/json
+###
+
+# Obter usuários filtrando
+GET http://localhost:3000/api/agendamento/filtro/cleiton Beal
+Content-Type: application/json
+###
+
+# Obter usuários filtrando
+GET http://localhost:3000/api/agendamento/filtroDate/2022-04-27
+Content-Type: application/json
+###
+
+
+
+

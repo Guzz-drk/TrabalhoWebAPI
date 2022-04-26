@@ -1,0 +1,13 @@
+.list_control{
+    margin-left: 10em;
+}
+
+.til{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.til:hover{
+    color:#008080;
+}

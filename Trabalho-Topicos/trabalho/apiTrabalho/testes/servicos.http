@@ -1,0 +1,34 @@
+# Obter a lista de usuários
+GET http://localhost:3000/api/servicos
+Content-Type: application/json
+###
+
+# Inserir novo usuário
+POST http://localhost:3000/api/servicos
+Content-Type: application/json
+
+{
+    "tipoServico": "Corte de Barba22asdasd",
+    "observacao": "Corte de barba com Barbaterapia",
+    "valor": "23.00"
+}
+###
+
+# Alterar usuário
+PUT http://localhost:3000/api/servicos
+Content-Type: application/json
+
+{
+ "_id": "62632aa5125eebc7b5fb5337",
+  "tipoServico": "Corte de Barba e Gzus",
+  "observacao": "Gzus",
+  "valor": "22.00"
+}
+###
+
+# Excluir um usuário
+DELETE http://localhost:3000/api/servicos/62632aa5125eebc7b5fb5337
+Content-Type: application/json
+###
+
+
